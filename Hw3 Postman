@@ -1,0 +1,99 @@
+{
+	"version": 1,
+	"collections": [
+		{
+			"id": "5f4d20ef-9aea-959b-d538-173884b9a3e1",
+			"name": "hw3",
+			"description": "",
+			"order": [
+				"1531ae24-b14c-2690-22a7-985e35ecdd53",
+				"2cb2f2f4-2923-81e1-5fff-1d4dbf7f0aa1",
+				"f9041e59-a4c0-52d9-1c91-0319329adb06"
+			],
+			"folders": [],
+			"timestamp": 1427744461015,
+			"synced": false,
+			"remote_id": 0,
+			"owner": "",
+			"subscribed": false,
+			"remoteLink": "",
+			"public": false,
+			"write": true,
+			"requests": [
+				{
+					"id": "1531ae24-b14c-2690-22a7-985e35ecdd53",
+					"headers": "",
+					"url": "https://cosnertyler-test.apigee.net/oauth/client_credential/accesstoken?grant_type=client_credentials",
+					"preRequestScript": "",
+					"pathVariables": {},
+					"method": "POST",
+					"data": [
+						{
+							"key": "client_id",
+							"value": "83DK0PufWZTijbmJ44QJfGGmghxUfsPV",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "client_secret",
+							"value": "rHIaScMUIrppogPm",
+							"type": "text",
+							"enabled": true
+						}
+					],
+					"dataMode": "urlencoded",
+					"version": 2,
+					"tests": "",
+					"currentHelper": "normal",
+					"helperAttributes": {},
+					"time": 1427744772474,
+					"name": "oauth",
+					"description": "",
+					"collectionId": "5f4d20ef-9aea-959b-d538-173884b9a3e1",
+					"responses": []
+				},
+				{
+					"id": "2cb2f2f4-2923-81e1-5fff-1d4dbf7f0aa1",
+					"headers": "Authorization: Bearer dApjM84rlbJGKvwGAwa11SAVbSA7\n",
+					"url": "http://cosnertyler-test.apigee.net/a3/oauth",
+					"preRequestScript": "",
+					"pathVariables": {},
+					"method": "GET",
+					"data": [],
+					"dataMode": "params",
+					"version": 2,
+					"tests": "",
+					"currentHelper": "normal",
+					"helperAttributes": {},
+					"time": 1427745270974,
+					"name": "oauth-a3",
+					"description": "",
+					"collectionId": "5f4d20ef-9aea-959b-d538-173884b9a3e1",
+					"responses": []
+				},
+				{
+					"id": "f9041e59-a4c0-52d9-1c91-0319329adb06",
+					"headers": "Authorization: Basic ODNESzBQdWZXWlRpamJtSjQ0UUpmR0dtZ2h4VWZzUFY6ckhJYVNjTVVJcnBwb2dQbQ==\nusername: tyler.cosner@ucdenver.edu\npassword: Password1\n",
+					"url": "http://cosnertyler-test.apigee.net/a3/basic",
+					"preRequestScript": "",
+					"pathVariables": {},
+					"method": "GET",
+					"data": [],
+					"dataMode": "params",
+					"version": 2,
+					"tests": "",
+					"currentHelper": "normal",
+					"helperAttributes": {},
+					"time": 1427751715065,
+					"name": "basic-a3",
+					"description": "",
+					"collectionId": "5f4d20ef-9aea-959b-d538-173884b9a3e1",
+					"responses": []
+				}
+			]
+		}
+	],
+	"environments": [],
+	"headerPresets": [],
+	"globals": []
+}
